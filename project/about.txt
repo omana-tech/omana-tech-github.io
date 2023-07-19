@@ -1,0 +1,12 @@
+this is a simple store consisting of two landing pages
+it features:
+1-navigation bar
+2-delivery date preferrences and location
+3-preview of what the site is about
+4-few laptops with a see more option
+5-about us
+6-workers
+7-footer
+8-a shop page with items
+
+ps:info on this page is just random and not confirmed as it is just a test
