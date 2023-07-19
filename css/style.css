@@ -1,0 +1,86 @@
+h1{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.delivery{
+    position: relative;
+    margin: top -100px !important;
+    z-index: 1;
+}
+
+.section-title{
+    position: relative;
+    display: inline-block;
+}
+
+a{
+    text-decoration: none;
+}
+
+.viewmore{
+    text-decoration: none;
+}
+.nav-link:hover{
+    color: var(--bs-black);
+    background-color: var(--bs-warning);
+    border-radius: 5px;
+}
+
+.section-title::before{
+    position: absolute;
+    content: "";
+    width: 45px;
+    height: 2px;
+    top: 50%;
+    left: -55px;
+    margin-top: -1px;
+    background: var(--bs-warning);
+}
+.section-title::after{
+    position: absolute;
+    content: "";
+    width: 45px;
+    height: 2px;
+    top: 50%;
+    right: -55px;
+    margin-top: -1px;
+    background: var(--bs-warning);
+}
+.section-title.text-start::before,
+.section-title.text-end::after{
+    display: none;
+}
+
+.services-item{
+    height: 320px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+   
+    box-shadow: 0 0 45px rgba(0,0,0,0,0.8);
+    transition: 0.5s;
+
+}
+
+.services-item:hover{
+    background: var(--bs-warning);
+}
+
+.services-item .service-icon{
+    margin: 0 auto 30px auto;
+    width: 65px;
+    height: 65px;
+    transition: 0.5s;
+}
+.services-item i,
+.services-item h5,
+.services-item p{
+    transition: 0.5s;
+}
+.services-item:hover  i,
+.services-item:hover h5,
+.services-item:hover p{
+    transition: 0.5s;
+}
