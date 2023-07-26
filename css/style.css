@@ -22,10 +22,12 @@ a{
 }
 .nav-link:hover{
     color: var(--bs-black);
-    background-color: var(--bs-warning);
+    background-color: var(--bs-success);
     border-radius: 5px;
 }
-
+.nav-link{
+    color: var(--bs-secondary)
+}
 .section-title::before{
     position: absolute;
     content: "";
@@ -65,7 +67,7 @@ a{
 }
 
 .services-item:hover{
-    background: var(--bs-warning);
+    background: var(--bs-success);
 }
 
 .services-item .service-icon{
@@ -83,4 +85,9 @@ a{
 .services-item:hover h5,
 .services-item:hover p{
     transition: 0.5s;
+}
+
+.navbar-toggler{
+    color: var(--bs-success);
+    background-color: var(--bs-success);
 }
