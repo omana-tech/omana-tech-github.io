@@ -22,7 +22,7 @@ a{
 }
 .nav-link:hover{
     color: var(--bs-black);
-    background-color: var(--bs-success);
+    background-color: var(--bs-teal);
     border-radius: 5px;
 }
 .nav-link{
@@ -67,7 +67,7 @@ a{
 }
 
 .services-item:hover{
-    background: var(--bs-success);
+    background: var(--bs-teal);
 }
 
 .services-item .service-icon{
@@ -88,6 +88,6 @@ a{
 }
 
 .navbar-toggler{
-    color: var(--bs-success);
-    background-color: var(--bs-success);
+    color: var(--bs-teal);
+    background-color: var(--bs-teal);
 }
